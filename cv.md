@@ -21,9 +21,11 @@ I want to get knowledge and skills that will be enough for employment in a compa
 * JavaScript Basics
 * Git, GitHub
 * VS Code
+
 ***
 ### Code example:
 **KATA from CODEWARS:**  Determine the area of the largest square that can fit inside a circle with radius r.
+
 ```
 function areaLargestSquare(r) {
   let squareArea = 2* (r*r);
@@ -31,6 +33,7 @@ function areaLargestSquare(r) {
 }
 
  ```
+
  ***
 ### Languages:
 **English:** Pre-Intermediate
