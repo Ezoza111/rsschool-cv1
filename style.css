@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto-BoldItalic.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
 * {
     box-sizing: border-box;
   }
@@ -7,11 +17,13 @@ body {
     justify-content: space-between;
     max-width: 1440px;
     margin: 0 auto;
+    font-family: 'Roboto';
 }
 html {
     scroll-behavior: smooth; 
   }
-  .header {
+  /* HEADER HEADER HEADER HEADER HEADER HEADER */
+.header {
     height: 70px;
     background-color: black;
   }
@@ -19,13 +31,14 @@ html {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    height: 100%;
   }
 .nav {
     position: relative;
     top: 10px;
     left: 30%;
     width: 70%;
-    background: red;
+    background: black;
     display: flex;
 }
 .nav-list {
@@ -37,12 +50,79 @@ html {
 .nav-link {
     text-decoration: none;
     transition: .3s;
-    color: aliceblue;
+    color: orange;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
 }
 .nav-link:hover {
     color: black;
-    background-color: antiquewhite;
+    background-color: orange;
     transition: 0.5s;
     border-radius: 12px;
-    padding: 5px;
+    padding: 15px;
+    font-size: 25px;
+    line-height: 25px;
+ }
+/* SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION SECTION */
+.section {
+  display: flex;
+  max-width: 1440px;
+  background: black;
 }
+/* SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY*/
+.summary-div {
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0;
+}
+.myPhoto {
+  border-radius: 300px;
+  width: 60%;
+}
+.myPhoto:hover {
+  width: 60%;
+  background-color: orange;
+  transition: 0.5s;
+  padding: 30px;
+  border-radius: 300px;
+}
+.summary-content-div {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 0;
+  flex-direction: column;
+}
+.summary-content {
+  width: 85%;
+  margin: 25px auto;
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.element-orange {
+  color: orange;
+  font-size: 55px;
+  font-weight: 700;
+}
+.summary-content:hover {
+  border-bottom: 10px solid orange;
+  transition: 0.5s;
+  font-size: 32px;
+  width: 90%;
+}
+.section-title-h1 {
+  color: antiquewhite;
+  font-size: 50px;
+  text-align: center;
+}
+.section-title-h1-content {
+  color: orange;
+  font-size: 65px;
+}
+/*  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS*/
