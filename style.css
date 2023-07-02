@@ -22,16 +22,17 @@ body {
 html {
     scroll-behavior: smooth; 
   }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
   /* HEADER HEADER HEADER HEADER HEADER HEADER */
 .header {
     height: 70px;
     background-color: black;
-  }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    height: 100%;
   }
 .nav {
     position: relative;
@@ -69,6 +70,12 @@ html {
   display: flex;
   max-width: 1440px;
   background: black;
+}
+.section-title {
+  font-size: 45px;
+  color: rgb(35, 25, 25);
+  font-weight: 700;
+  line-height: 35px;
 }
 /* SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY SECTION SUMMARY*/
 .summary-div {
@@ -126,3 +133,39 @@ html {
   font-size: 65px;
 }
 /*  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS  SECTION SKILLS*/
+.section-skills-div {
+  margin: 50px auto;
+  width: 90%;
+  background: orange;
+  display: flex;
+  border-radius: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.section-skills-div:hover {
+  box-shadow: 10px 5px 10px 5px gray;
+  padding: 5px;
+  transition: 0.5s;
+  background: rgb(132, 27, 116);
+  color: antiquewhite;
+}
+.section-skills-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.section-skills-div:hover >div>.section-title {
+  color: antiquewhite;
+  transition: 0.5s;
+}
+.section-skills-content-p {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+}
+.ul-header {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 35px;
+}
