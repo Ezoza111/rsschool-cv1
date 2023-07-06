@@ -369,6 +369,8 @@ font-weight: 700;
 left: 50px;
 }
 .footer-div:hover>.footer-content>.footer-content-p {
-  color: antiquewhite;
+  color: black;
   text-shadow: 5px 5px 20px;
+  background: rgb(206, 206, 22);
+  border-radius: 20px;
 }
